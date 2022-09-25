@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Candara');
+@font-face {
+    font-family: 'Candara';
+    src: url('fonts/Candara.ttf'); 
+}
 
 * {
     padding: 0;
@@ -40,7 +43,7 @@ body {
 }
 
 .title {
-    font-family: 'Candara', cursive;
+    font-family: 'Candara', sans-serif;
     font-size: 4rem;
     margin-bottom: .5rem;
     width: 100%;
