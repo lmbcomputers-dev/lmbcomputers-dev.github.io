@@ -3333,9 +3333,9 @@ ul.pagination li:last-child {
 .footer-widget-area-bg .footer-widget-area .contact-heading {
   display: block;
   float: left;
-  margin-right: 30px;
   overflow: hidden;
-  width: 70px;
+  width: 200px;
+  margin-right: 0px;
 }
 .footer-widget-area-bg .footer-widget-area .contact-details {
   color: #FFFFFF;
