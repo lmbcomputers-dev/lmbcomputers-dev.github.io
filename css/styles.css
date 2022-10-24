@@ -19,7 +19,7 @@
 /*      08. ABOUT US PAGE
 /*      09. GALLERY PAGE
 /*      10. SERVICE PAGE
-/*      11. DONATION PAGE 
+/*      11. DONATION PAGE
 /*      12. 404 PAGE
 /*      13. FOOTER
 /*      14. SIDEBAR & WIDGETS
@@ -4228,6 +4228,15 @@ ul.pagination li:last-child {
     font-size: 20px;
     line-height: 25px;
   }
+}
+
+/* Custom styles */
+.better-contact-heading {
+  float: none !important;
+  font-weight: bold;
+}
+.better-contact-details {
+  float: none !important;
 }
 
 /*# sourceMappingURL=styles.css.map */
