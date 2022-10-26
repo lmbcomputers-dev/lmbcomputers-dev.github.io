@@ -10,7 +10,7 @@ jQuery(function ($) {
     "use strict";
 
     // DETECT TOUCH DEVICE
-    
+
     function is_touch_device() {
         return !!('ontouchstart' in window) || (!!('onmsgesturechange' in window) && !!window.navigator.maxTouchPoints);
     }
@@ -30,7 +30,7 @@ jQuery(function ($) {
 
     }
 
-    // ONE PAGE SMOOTH SCROLLING 
+    // ONE PAGE SMOOTH SCROLLING
 
     function smooth_scrolling() {
 
@@ -79,7 +79,7 @@ jQuery(function ($) {
         }
 
     }
-    
+
     // SLIDER 1
 
     if ($("#slider_1").length ) {
@@ -88,7 +88,7 @@ jQuery(function ($) {
              items: 1,
             loop: true,
             autoplay: true,
-            autoplayTimeout: 5000,
+            autoplayTimeout: 8000,
             autoplayHoverPause: true,
             responsive: {
                 0: {
@@ -110,9 +110,9 @@ jQuery(function ($) {
             nav: false,
             navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
         });
-        
+
     }
-    
+
     // SLIDER 2
 
     if ($("#slider_2").length ) {
@@ -146,7 +146,7 @@ jQuery(function ($) {
             navText: ["<i class='logo-nav-icon'></i>", "<i class='logo-nav-icon'></i>"]
         });
     }
-    
+
     // CAUSE ITEM CAROUSEL.
 
     if ($(".cause-items").length ) {
@@ -176,12 +176,12 @@ jQuery(function ($) {
             navText: ["<i class='fa fa-angle-left cause-nav-icon'></i>", "<i class='fa fa-angle-right cause-nav-icon'></i>"]
         });
     }
-    
+
     // CAUSE FUND RAISE NAVIGATOR.
-    
-    
+
+
     if( $('.fund-raised').length  ) {
-    
+
         $('.fund-raised').each(function(){
 
             var move_width = parseInt( $(this).data('raised_percentage'), 10 );
@@ -197,7 +197,7 @@ jQuery(function ($) {
             $(this).animate({ "left": move_width+"%" }, 3000 );
 
         });
-    
+
     }
 
 
@@ -207,13 +207,13 @@ jQuery(function ($) {
 //        wrapper: '<div class="sticky-wrapper" />',
 //        stuckClass: 'stuck'
 //    });
-    
+
     // GALLERY.
-    
+
     if ( $('.gallery-light-box').length ) {
-        
+
         $('.gallery-light-box').venobox();
-        
+
     }
 
     // COUNTER
@@ -224,8 +224,8 @@ jQuery(function ($) {
             time: 2000
         });
     }
-    
-    //DONORS/CLIENTS LOGOS 
+
+    //DONORS/CLIENTS LOGOS
 
     if ($(".logo-items").length ) {
 
@@ -254,7 +254,7 @@ jQuery(function ($) {
             navText: ["<i class='logo-nav-icon'></i>", "<i class='logo-nav-icon'></i>"]
         });
     }
-    
+
 
     // TESTIMONIAL CAROUSEL.
 
@@ -321,7 +321,7 @@ jQuery(function ($) {
         $('#backTop').backTop({
             'theme': 'custom'
         });
-        
+
     }
 
     // PRELOADER
