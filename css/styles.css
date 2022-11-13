@@ -4109,11 +4109,6 @@ ul.pagination li:last-child {
   .page-header {
     padding: 80px 0;
   }
-  #slider_1 .slider-content p,
-  #slider_1 .slider-content a.btn-slider,
-  #slider_1 .slider-content a.btn-slider-2 {
-    display: none;
-  }
   #slider_2 .slider-content h2 {
     font-size: 24px;
     text-align: center;
