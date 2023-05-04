@@ -3942,7 +3942,7 @@ ul.pagination li:last-child {
   .navbar-default .navbar-nav li ul.drop-down li ul.drop-down.level3 li a {
     background: none;
     color: #FFFFFF;
-    font-size: 16px;
+    /* font-size: 16px; */
     text-transform: inherit;
     padding: 4px 20px;
   }
