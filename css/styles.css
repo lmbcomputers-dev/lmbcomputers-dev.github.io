@@ -2727,7 +2727,8 @@ ul.pagination li:last-child {
   padding-right: 12px;
 }
 .section-our-team .team-layout-1 .team-social-share {
-  margin-top: 40px;
+  /* margin-top: 40px; */
+  margin-top: 0px;
 }
 .section-our-team .team-layout-1 .team-social-share a {
   border: 1px solid #dfdfdf;
